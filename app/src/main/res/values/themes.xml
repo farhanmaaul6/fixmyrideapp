@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Fixmyrideapp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Fixmyrideapp" parent="Base.Theme.Fixmyrideapp" />
+    <style name="Base.Theme.FixMyRideApp.Appbar" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+    </style>
+
+    <style name="Theme.FixMyRideApp" parent="Base.Theme.Fixmyrideapp">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
